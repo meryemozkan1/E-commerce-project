@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>E-Commerce</title>
+    <link rel="icon" type="image/png" href="images/shopping.png" />
     <!-- CSS BAGLANTI -->
     <link rel="stylesheet" href="style.css" />
     <!-- font awesome -->
@@ -19,6 +20,7 @@
     <header>
       <a href="" class="logo"><img src="images/shopping.png" alt="" /></a>
 
+            <input type="checkbox" class="menu-toggle" id="menu-toggle" aria-label="Toggle navigation menu" />
       <ul class="nav-menu">
         <li><a href="">Home</a></li>
         <li><a href="">Shop</a></li>
@@ -31,12 +33,16 @@
         <a href=""><i class="fa-solid fa-user"></i></a>
         <a href=""><i class="fa-solid fa-cart-shopping"></i></a>
       </div>
+            <label id="menu-icon" class="menu-toggle-label" for="menu-toggle" aria-hidden="true">
+                <i class="fa-solid fa-bars"></i>
+                <i class="fa-solid fa-xmark"></i>
+            </label>
     </header>
     <!-- main -->
     <section class="main-home">
       <div class="main-text">
         <h5>Winter Collection</h5>
-        <h1>New Winter </br>Collection</h1>
+        <h1>New Winter <br />Collection</h1>
         <p>There's Nothing Like Trend</p>
         <a href=""class="main-btn">Shop Now <i class="fa-solid fa-arrow-right"></i></a>
       </div>
